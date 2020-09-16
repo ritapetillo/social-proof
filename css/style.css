@@ -63,6 +63,7 @@ body {
   height: 100vh;
   padding: 10px;
   position: relative;
+  overflow-x: hidden;
 }
 .container__shape-top {
   position: absolute;
@@ -73,8 +74,8 @@ body {
   position: absolute;
   bottom: -20%;
   left: 20%;
-  height: 80px;
-  width: 100%;
+  height: 40px;
+  width: 50%;
   object-fit: cover;
 }
 
