@@ -54,6 +54,7 @@ body {
   display: grid;
   justify-items: center;
   align-items: center;
+  overflow-x: hidden;
 
   height: 100vh;
 }
@@ -63,7 +64,6 @@ body {
   height: 100vh;
   padding: 10px;
   position: relative;
-  overflow-x: hidden;
 }
 .container__shape-top {
   position: absolute;
